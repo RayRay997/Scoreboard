@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background:#1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+#score-Home, #score-Guest {
+    margin: -20px auto 30px auto;
+    width: 165px;
+    height: 120px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size:90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    background-color: #080001;
+    border-radius: 5px;
+}
+
+.points { 
+    
+    width: 165px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Cursed Timer ULiL', sans-serif;
+    color:#9AABD8;
+    
+    
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #9AABD8;
+    font-family:'Cursed Timer ULiL', sans-serif; 
+    background-color: #1B244A;
+    
+}
+
+
+
